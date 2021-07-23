@@ -1,0 +1,128 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --wite-color: #ffffff;
+}
+
+body {
+  color: var(--main-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-blue {
+  color: var(--accent-text-color);
+}
+
+/* ---------------MeNU---------------- */
+
+.text-menu {
+  text-decoration: none;
+}
+.menu,
+.menu-contacts {
+  font-weight: 500;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+}
+.text-menu:hover,
+.text-menu:focus {
+  color: var(--accent-text-color);
+}
+
+/* _____________________main text title_______________ */
+
+.main-text-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #000000; /*WARNING!!!! */
+}
+
+.btn {
+  background-color: var(--accent-text-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  color: var(--wite-color);
+}
+
+/* -------------------Advantages-------------------- */
+
+.advantages h3 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+/*---------------------- Our services - Our team H2 - text ------------------ */
+
+.our-services h2,
+.our-team h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* ------------- Our team H3-p - text --------------------*/
+
+.our-team h3 {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.our-team p {
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+/* -----------------footer-------------- */
+
+.footer-logo {
+  color: var(--main-text-color); /*WARNING!!!! */
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.footer-logo-blue {
+  color: var(--accent-text-color);
+}
+
+.footer-contacts .a .p {
+  color: rgba(255, 255, 255, 0.6);
+}
